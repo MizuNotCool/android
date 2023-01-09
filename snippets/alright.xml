@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch=".."
+           review="review.lineageos.org" />
+
+  <default revision="refs/heads/12.1"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+<!-- Our Repos-->
+
+  <project path="packages/apps/Settings" name="AlrightAndroid/android_packages_apps_Settings" groups="pdk-fs" />
+</manifest>
